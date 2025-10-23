@@ -1,22 +1,43 @@
-# 📊 Project: Simple API 2
+# 📺 Show Search App 🔍
 
-### Goal: Display data returned from an api
+## 🎯 Goal
+Create a **web application** that allows users to search for TV shows and display data returned from an API.  
 
-### How to submit your code for review:
+---
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## 🚀 Features
+- ✅ Search for TV shows by name  
+- ✅ Display show details such as:  
+  - Title  
+  - Genre  
+  - Summary  
+  - Image/Poster  
+- ✅ Dynamic results based on API response  
+- ✅ User-friendly interface  
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+---
+
+## 🧩 Tech Stack
+- **HTML/CSS** – Structure and styling  
+- **JavaScript (ES6)** – Fetching API data and DOM manipulation  
+- **TV Show API** – Example: [TVMaze API](https://www.tvmaze.com/api)  
+
+---
+
+## 💻 How It Works
+1. User enters a search term in the input field.  
+2. JavaScript sends a request to the API using `fetch()`.  
+3. API returns data about matching TV shows.  
+4. JavaScript dynamically displays the results on the page with:  
+   - Show title  
+   - Summary  
+   - Image  
+5. Users can scroll through multiple results if available.  
+
+---
+
+## 📦 Installation & Usage
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/show-search.git
